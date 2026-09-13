@@ -1205,6 +1205,6 @@ async def flujo_secuencial_completo():
             # Marca automáticamente como Error en el Excel si algo falla a mitad de camino
             actualizar_estado_cuenta(usuario, "Error - Falla en ejecución")
             raise e
-dddddd
+
 if __name__ == "__main__":
     asyncio.run(flujo_secuencial_completo())
