@@ -54,7 +54,7 @@ class AppNovibetCTK(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("Panel de Control - Bot Novibet Modular")
+        self.title("Panel de Control - ACTUALIZADO DESDE GITHUB")
         self.geometry("1050x650")
         self.minsize(950, 540)
 
